@@ -1,0 +1,121 @@
+/* this is how you comment on css*/
+/* * is used to indicate the entire page*/
+*{
+  width:100%;
+  height: 100%
+
+}
+/* body ,h3, p and other can be used without any # or .*/
+body{
+  margin:0;
+  padding:0;  
+}
+/* . is used before class name to indicate class*/
+.holder{
+  width:100%;
+  position: absolute;
+ 
+}
+#blah-2
+{ 
+position:relative;
+top:25%;
+left:15%;
+ width:24px; height:24px; margin:5px;
+ } 
+ #blah-3
+{ 
+position:absoulte;
+top:25%;
+left:70%;
+ width:20%; height:60%; margin:5px;
+ } 
+#blah-1
+{ 
+position:relative;
+top:30%;
+left:88%;
+ width:24px; height:24px; margin:5px;
+ } 
+#blah
+{ 
+position:relative;
+top:30%;
+left:49%;
+ width:24px; height:24px; margin:5px;
+ } 
+#hell
+{
+position:relative;
+top:25%;
+left:45%;
+font-family:Sitka Small;
+}
+/* # is used before id name to indicate id*/
+#holderone{
+  height: 70%;
+  
+  /*border: 2px solid black;*/
+  background-color: #FDFDFD
+}
+#holdertwo{
+  height: 50%;
+  top:70%;
+  /*border: 2px solid blue; */
+  background-color: #4097fd;
+  
+}
+
+#new
+{
+font-size:20;
+color:white;
+position:relative;
+top:25%;
+left:15%;
+font-family:Sitka Small;
+ }
+ 
+#got
+{
+font-size:20;
+color:white;
+position:relative;
+top:32%;
+left:40%;
+font-family:Sitka Small;
+ } 
+
+#get
+{
+position:relative;
+left:40%;
+font-size:15;
+color:black;
+font-family:Sitka Small;
+} 
+
+#bs
+{
+position:relative;
+top:30%;
+left:70%;
+font-size:20;
+color:black
+font-family:Sitka Small;
+ } 
+
+ 
+#holderthree{
+  height: 50%;
+  top:120%;
+  /*border: 2px solid red; */
+  background-color: #FDFDFD
+}
+#holderfour{
+  height: 50%;
+  top:170%;
+  /*border: 2px solid green;*/ 
+  background-color: #4097fd
+}
+/* you use border so divs are easier to space*/
